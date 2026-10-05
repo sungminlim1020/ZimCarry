@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기존 색상 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 배지 색상(결과 카드 배경) -->
+    <color name="ok_green">#10B981</color>      <!-- 기내 OK -->
+    <color name="warn_orange">#F59E0B</color>   <!-- 위탁 권장 -->
+    <color name="ban_red">#EF4444</color>       <!-- 금지 -->
+</resources>

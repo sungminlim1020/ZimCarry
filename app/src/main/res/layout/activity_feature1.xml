@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- 상단 안내바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#111111"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp">
+
+        <!-- 🔙 뒤로가기 버튼 -->
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_back_arrow"
+            android:contentDescription="back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔍 보안 안내"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- 제목 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="AI 물품 자동 인식"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- 안내판 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:padding="20dp"
+        android:background="#F3F3F7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 카메라로 비추면 즉시 AI가 물품을 인식합니다."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 딥러닝 기반 고정밀 물품 분류 모델 사용"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 반입 금지 가능성이 있는 물품을 빠르게 탐지"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+    </LinearLayout>
+
+</LinearLayout>

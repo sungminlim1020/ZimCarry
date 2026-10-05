@@ -1,0 +1,10 @@
+charger_cable
+e_cigarette
+knife
+laptop
+lighter
+liquid_bottle
+power_bank
+scissors
+umbrella
+water_bottle

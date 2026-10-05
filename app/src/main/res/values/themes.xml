@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 앱 전체 테마: Material3 기반 (ActionBar 제거) -->
+    <style name="Theme.ZimCarry" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- (선택) 기본 컬러를 커스텀하고 싶으면 주석 해제해서 사용
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        -->
+
+        <!-- (선택) 시스템바/내비게이션바 처리 예시
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        -->
+    </style>
+
+</resources>
